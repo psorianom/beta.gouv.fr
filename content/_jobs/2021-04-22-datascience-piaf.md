@@ -26,30 +26,28 @@ La solution mélange des modèles d’indexation classiques (type ElasticSearch)
 Tu travailleras avec l'équipe actuelle (3 personnes) pour automatiser le produit actuel, et lui permettre de passer à l'échelle. Piaf est un produit puissant qui permet de configurer des chaines de traitement de texte pour obtenir la recherche de l'information la plus précise possible. Par exemple, Piaf permet de combiner Elasticsearch avec des embeddings de type [Sentence-Bert](https://www.sbert.net/) afin de palier aux limites des représentations creuses avec les avantages sémantiques des représentations denses (prendre en compte les synonymes par exemple). Piaf permet aussi d'intégrer le Question-Answering en bout de recherche d'Information. 
 
 - Extraction, transformation et chargement des données
-- Expériences NLP/ML pour maximiser la performance de notre outil pour chaque cas d'usage
-  - automatisation du choix des paramètres (ex: méthodologie grid search)
-  - analyses et documentation des résultats
-  - test de performances continu: nous améliorons nos pipelines en continu et leurs déploiements sont automatiques
-- Question-answering: fine-tuner les [modèles de QA francophones](https://huggingface.co/etalab-ia) que nous avons développé
+- Support et maintenance des expérimentations et tests de notre système
+- Générer, adapter et rassembler des données textuelles d'entraînement
+- Mener les développements nécessaires afin de faciliter l’interfaçage avec notre application
 - Prise en compte du feedback utilisateur pour améliorer les performances
+- Fine-tuner les [modèles de QA francophones](https://huggingface.co/etalab-ia) que nous avons développé
 
 
 Les technologies sont :
 
-* [Haystack](https://github.com/deepset-ai/haystack) 
-* [Transformers](https://github.com/huggingface/transformers)
 * Python (debugging, code modulaire, notebooks)
-* pandas, scikit-learn, pytorch, fairseq, sentence-bert
+* Python pour les données: pandas, scikit-learn, pytorch, fairseq, sentence-bert, transformers
+* Traitement automatique des langues, Apprentissage automatique
 * ElasticSearch
 
 ## Compétences :
 
-* D’au moins 3 ans d’expérience dans le web
 * Familier des technologies listées
-* Un bon sens du design
+* D’au moins 3 ans d’expérience dans le développement Python
 * Une préférence pour des solutions simples et durables
+* Un bon sens du design
 * Une connaissance des méthodes de développement agile
-* Une connaissance des outils classiques (GitHub, CI, Figma, etc.)
+* Une connaissance des outils classiques (GitHub, CI, etc.)
 * Dynamisme, autonomie et bienveillance
 
 
